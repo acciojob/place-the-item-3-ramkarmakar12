@@ -6,13 +6,14 @@ body {
 }
 
 .holder {
-    display: flex;
-    flex-wrap: wrap; /* Ensures items wrap to the next row if needed */
-    gap: 10px; /* Adds space between items */
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    gap: 10px; 
     padding: 20px;
     background-color: #e0e0e0;
-    justify-content: center; /* Centers the items horizontally */
 }
+
 
 .item {
     background-color: #4caf50;
